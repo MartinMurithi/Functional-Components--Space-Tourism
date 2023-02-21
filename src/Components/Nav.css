@@ -1,0 +1,39 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Sans:wght@500&family=Zeyada&display=swap');
+
+
+.navbar{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 36% 64%;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.navLinksDiv{
+    background-color: RGBA(255, 255, 255, 0.05);
+    margin-top: 25px;
+    width: 100%;
+    font-family: 'heebo';
+}
+
+.navList{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: #EDEEEF;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    gap: 50px;
+}
+
+span{
+    padding: 6px;
+    color:#E3E4E5;
+    font-weight: bolder;
+}
